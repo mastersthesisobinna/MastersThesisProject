@@ -1,0 +1,151 @@
+A kruskal-Wallis rank sum test was conducted to test the two null hypotheses that are stated for the present study. We divided our sample to create two new data sets, which we used for testing our two null hypotheses. The first data set consists of 30 randomly selected firms, including their ROAA financial performance measure from the sample. Likewise, in a second data set, we randomly selected 30 firms, along with their ROAE financial performance measure from the sample.
+
+In each of the data sets, we created two levels or groups using the average (i.e. mean) value of percentWOB (see \autoref{percentWomen}) from the sample. Each group contained 15 randomly selected firms per data set. The characteristics of the groups are as follows: (1) group 0 consists of 15 randomly selected firms, where the average percentWOB of all of the 15 firms in the data set are less than the average percentWOB of the 49 firms included in the sample. (2) group 1 consists of 15 randomly selected firms, where the average percentWOB of all of the 15 firms in the data set are greater than the average percentWOB of the 49 firms included in the sample. \autoref{randomROAA} and \autoref{randomROAE} shows the two data sets that was used in testing the null hypotheses stated for the present study (see page \pageref{sec:hypothesis}).
+
+\autoref{kruskalROAA} shows the results of the Kruskal-Wallis test of significance difference in average ROAA between the two percentWOBGroup groups (i.e. first null hypothesis). \autoref{kruskalROAE} shows the results of the Kruskal-Wallis test of significance difference in average ROAE between the two percentWOBGroup groups (i.e. second null hypothesis). The test statistics, \emph{H} is given by a rather formidable formula that basically represents the variance of the ranks among groups, with an adjustment for the number of ties. H is approximately chi-square distributed, meaning that the probability of getting a particular value of H by chance, if the null hypothesis is true, is the \emph{p} value corresponding to a chi-square equal to H; the degrees of freedom, \emph{df} is the number of groups minus 1. We set the significance level at 0.05. If the \emph{p} value is greater than 0.05 we accept the null hypothesis. If the \emph{p} value is less than 0.05 we reject the null hypothesis.
+
+
+The first stated null hypothesis is that the difference in mean of ROAA between the different percentWOBGroup groups are identical. At a significance level of 0.05 the Kruskal-Wallis test showed the \emph{p} value to be greater than 0.05 (\emph{p} = 0.6041), indicating a non-significant difference in ROAA between the two percentWOBGroup groups (i.e. group 0 and 1). Also, the test statistics is less than the chi-square-tabulation (0.2688 \textless 3.8415) with a 1 degree of freedom. Hence we accept the null hypothesis and conclude that the means of the ROAA between the two percentWOBGroup levels are identical. \autoref{kruskalROAA} shows the results of the Kruskal-Wallis test for the first null hypothesis. 
+
+The second stated null hypothesis is that the difference in mean of ROAE between the different percentWOBGroup groups are identical. At a significance level of 0.05 the Kruskal-Wallis test showed the \emph{p} value to be greater than 0.05 (\emph{p} = 0.0930), indicating a non-significant difference in ROAE between the two percentWOBGroup groups (i.e. group 0 and 1). Also, the test statistics is less than the chi-square-tabulation (2.8219 \textless 3.8415) with a 1 degree of freedom. Hence we accept the null hypothesis and conclude that the means of the ROAE between the two percentWOBGroup groups are identical. \autoref{kruskalROAE} shows the results of the Kruskal-Wallis test for the second null hypothesis.
+
+We employed two barplot diagrams (\autoref{fig:barPlotROAA} and \autoref{fig:barPlotROAE}) to verify the result of the Kruskal-Wallis test. In both barplot diagrams, we find that the difference in the average financial performance of either the ROAA or ROAE between the two percentWOBGroup groups was almost identical. This shows that there is no significant difference in the overall financial performance of the firms between the varying percentage levels of women on board included in our sample. Fortunately, the results of our barplot diagrams appears to confirm the result of the Kruskal-Wallis test.
+\begin{table}[H]
+      \renewcommand\thetable{5}
+      \centering
+      \vspace*{1in}
+      \begin{tabular}{rrrrr}
+        \hline
+       & H & df & p-value & chi-square-tabulation \\ 
+        \hline
+       & 0.2688 & 1 & 0.6041 & 3.8415 \\ 
+         \hline
+      \end{tabular}
+      \caption{Kruskal-Wallis Test of First Null Hypothesis} 
+      \label{kruskalROAA}
+      \vspace*{1in}
+\end{table}
+\begin{table}[H]
+      \vspace*{-1in}
+      \renewcommand\thetable{6}
+      \centering
+      \begin{tabular}{rrrrr}
+        \hline
+       & H & df & p-value & chi-square-tabulation \\ 
+        \hline
+       & 2.8219 & 1 & 0.0930 & 3.8415 \\ 
+         \hline
+      \end{tabular}
+      \caption{Kruskal-Wallis Test of Second Null Hypothesis} 
+      \label{kruskalROAE}
+\end{table}
+\begin{table}[H]
+      \renewcommand\thetable{7}
+      \centering
+      \vspace*{1in}
+      \begin{tabular}{rrrr}
+        \hline
+       & ROAA & percentWOB & percentWOBGroup \\ 
+        \hline
+      1 & 7.79 &   9 &   0 \\ 
+        2 & -7.56 &  18 &   0 \\ 
+        3 & 13.23 &  11 &   0 \\ 
+        4 & 7.36 &  17 &   0 \\ 
+        5 & 29.44 &   0 &   0 \\ 
+        6 & 7.55 &  18 &   0 \\ 
+        7 & 8.73 &  17 &   0 \\ 
+        8 & 9.72 &  11 &   0 \\ 
+        9 & 7.07 &   9 &   0 \\ 
+        10 & 6.02 &  10 &   0 \\ 
+        11 & 10.57 &   0 &   0 \\ 
+        12 & 5.97 &  11 &   0 \\ 
+        13 & 12.45 &  12 &   0 \\ 
+        14 & 3.70 &  17 &   0 \\ 
+        15 & 9.88 &  17 &   0 \\ 
+        16 & 11.82 &  27 &   1 \\ 
+        17 & 16.23 &  22 &   1 \\ 
+        18 & -8.15 &  44 &   1 \\ 
+        19 & 8.22 &  27 &   1 \\ 
+        20 & 6.56 &  33 &   1 \\ 
+        21 & 7.03 &  20 &   1 \\ 
+        22 & 6.49 &  20 &   1 \\ 
+        23 & 7.18 &  22 &   1 \\ 
+        24 & 1.72 &  30 &   1 \\ 
+        25 & 17.62 &  29 &   1 \\ 
+        26 & 7.85 &  27 &   1 \\ 
+        27 & 6.86 &  30 &   1 \\ 
+        28 & 8.21 &  22 &   1 \\ 
+        29 & 10.61 &  20 &   1 \\ 
+        30 & 5.23 &  20 &   1 \\ 
+         \hline
+      \end{tabular}
+      \caption{Dataset One Showing Average ROAA Between Two Groups} 
+      \label{randomROAA}
+      \vspace*{1in}
+\end{table}
+\vspace*{-\baselineskip}
+\begin{table}[H]
+      \renewcommand\thetable{8}
+      \centering
+      \vspace*{1in}
+      \begin{tabular}{rrrr}
+        \hline
+       & ROAE & percentWOB & percentWOBGroup \\ 
+        \hline
+      1 & 28.05 &  12 &   0 \\ 
+        2 & 17.60 &   9 &   0 \\ 
+        3 & 35.81 &   0 &   0 \\ 
+        4 & 11.66 &  11 &   0 \\ 
+        5 & 15.11 &  17 &   0 \\ 
+        6 & 24.85 &   0 &   0 \\ 
+        7 & 15.55 &  10 &   0 \\ 
+        8 & 13.35 &  10 &   0 \\ 
+        9 & 17.90 &   9 &   0 \\ 
+        10 & 19.08 &  11 &   0 \\ 
+        11 & 19.53 &  18 &   0 \\ 
+        12 & 10.37 &   9 &   0 \\ 
+        13 & 12.94 &  18 &   0 \\ 
+        14 & 20.80 &  17 &   0 \\ 
+        15 & 32.06 &  11 &   0 \\ 
+        16 & 6.63 &  21 &   1 \\ 
+        17 & 14.97 &  33 &   1 \\ 
+        18 & 14.36 &  20 &   1 \\ 
+        19 & 10.60 &  27 &   1 \\ 
+        20 & 15.44 &  27 &   1 \\ 
+        21 & 3.65 &  30 &   1 \\ 
+        22 & 4.80 &  44 &   1 \\ 
+        23 & 14.58 &  27 &   1 \\ 
+        24 & 46.41 &  20 &   1 \\ 
+        25 & 27.18 &  22 &   1 \\ 
+        26 & 14.93 &  20 &   1 \\ 
+        27 & 7.00 &  25 &   1 \\ 
+        28 & 16.45 &  30 &   1 \\ 
+        29 & 29.37 &  42 &   1 \\ 
+        30 & 14.83 &  20 &   1 \\ 
+         \hline
+      \end{tabular}
+      \caption{Dataset Two Showing Average ROAE Between Two Groups} 
+      \label{randomROAE}
+      \vspace*{1in}
+\end{table}
+\vspace*{-\baselineskip}
+\newpage
+\begin{figure}[H]
+    \centering
+    \vspace*{1in}
+    \renewcommand\thefigure{4}
+    \includegraphics[width=0.6\textwidth,height=50mm]{barPlotROAA_percentWOBGroup}
+    \caption{Average ROAA Between Two percentWOBGroup Groups}
+    \label{fig:barPlotROAA}
+\end{figure}
+\vspace*{-\baselineskip}
+\begin{figure}[H]
+    \vspace*{1in}
+    \begin{center}
+    \renewcommand\thefigure{5}
+    \includegraphics[width=0.6\textwidth,height=50mm]{barPlotROAE_percentWOBGroup}
+    \caption{Average ROAE Between Two percentWOBGroup Groups}
+    \label{fig:barPlotROAE}
+    \end{center}
+    \vspace*{1in}
+\end{figure}

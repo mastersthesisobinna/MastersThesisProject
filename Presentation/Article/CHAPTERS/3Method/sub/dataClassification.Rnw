@@ -1,0 +1,20 @@
+The classification of the data included in our sample is shown in table \autoref{dataclassification}. We classified the data by their inherent quality, measurement scale, and variable. The quality of the data indicates the range of values our data can permit.
+
+\begin{table}[ht]
+\renewcommand\thetable{1}
+  \begin{center}
+    \begin{tabular}{|l | l|}
+      \hline
+      Classification category & Classification\\
+      \hline \hline
+      Inherent quality & Continous\\
+      Measurement & Interval and Ratio\\
+      Variable & Bivariate\\
+      \hline
+    \end{tabular}
+    \caption{Classification of Data Included in The Sample}
+    \label{dataclassification}
+  \end{center}
+\end{table}
+\vspace*{-\baselineskip}
+The measurement scale of the data indicates the kind of measurement and possible statistical analysis that are allowed on the data. The variable of the data (not to be confused with the list of variables for the data included in our sample) indicates the number of variables that can be examined at a given time.

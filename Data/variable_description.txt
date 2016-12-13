@@ -1,0 +1,114 @@
+====================================================================================================
+Variable Description File
+====================================================================================================
+
+firm- Name of the firm
+ticker- Trading symbol used on the American Stock Exchange market (i.e. Nasdaq and NYSE)
+netIncome2015- The net income of the firm for the year 2015
+asset2014- The asset value of the firm for the year 2014
+asset2015- The asset value of the firm for the year 2015
+stock2014- The stockholder's equity value of the firm for the year 2014
+stock2015- The stockholder's equity value of the firm for the year 2015
+ROAA- The return on average assets for the year 2015. Percentage ratio of netIncome2015 and average total assets (i.e. asset2014 and asset2015)
+ROAE- The return on average equity for the year 2015. Percentage ratio of netIncome2015 and average stockholder's equity (i.e. stock2014 and stock2015)
+Board- The total size of the board comprising of either female and male directors on the board of directors
+WOB- The number of women on the board
+percentWOB- The percentage of women on the board of directors. The percentage ratio of WOB and Board.
+percentWOBGroup- Designated as 0 or 1. 0 indicates firms that have less than the average percentWOB. 1 indicates firms that have greater than the average percentWOB
+Sector- The economic sector that the firm operates in
+State- The operating regional setting of the firm by state
+City- The operating regional setting of the firm by city
+Country- The operating regional setting of the firm by country
+
+====================================================================================================
+Sample Data
+====================================================================================================
+MainData.csv
+17 columns, 49 observations.
+Columns represents variables as described above
+Observation represents record for each firm contained in the sample.
+
+Sample size in MainData.csv is 49 firms from the S&P 500 firms for the year 2016.
+
+Two data sets extracted from the sample are also used in the study.
+(1) randomSample_ROAA_percentWOBGroup.csv - Contains 30 randomly selected firms from the sample including their ROAA
+(2) randomSample_ROAE_percentWOBGroup.csv - Contains 30 randomly selected firms from the sample including their ROAE
+
+====================================================================================================
+Folders
+====================================================================================================
+(1)
+C:/MastersThesisProject/Data/Financials (dir)
+---------> firms (sub.dir)
+------------------------>71 Excel file sheets (.xlsx)
+---------> financials.csv
+---------> RFinancials.R
+
+RFinancials.R contains R code for obtaining data from the 71 Excel file sheet that was used to create the 
+financials.csv file. All data contained in the financials.csv file was obtained from the SEC.gov website.
+
+
+
+(2)
+C:/MastersThesisProject/Data/SP500 (dir)
+---------> SP500.csv
+
+SP500.csv contains data of 56 United States technology firms listed in the Standard and Poor's (S&P) 500 index
+for the year 2016. Data was obtained from the YCharts.com website.
+
+
+
+(3)
+C:/MastersThesisProject/Data/WOB (dir)
+---------> RWOB.R
+---------> uncleanWOB.csv
+---------> wob.csv
+
+RWOB.R contains R code for obtaining data on technology firms situated in the United States from the 2020 women 
+on boards website (2020wob.com). The RWOB.R produces two comma separated values (csv) files: uncleanWOB.csv and 
+wob.csv. The uncleanWOB.csv contains the raw data extract from the 2020wob.com website. The wob.csv is the clean
+version or formatted data file that was created using the uncleanWOB.csv file.
+
+
+
+(4)
+C:/MastersThesisProject/Data/GatherSource (dir)
+---------> GatherFinancials.R
+---------> GatherWOB.R
+---------> MakeFile.R
+---------> MergeData.R
+
+All four R files included in the GatherSource directory is crucial in creating the sample data file (i.e. MainData.csv) needed
+for study. The GatherFinancials.R file contains the R code that uses the "Data/Financials/RFinancials.R" or RFinancials.R
+file. Running the GatherFinancials.R file will execute the code contained in the RFinancials.R file, which
+then creates the "Data/Financials/financials.csv" file. The GatherWOB.R file uses the "Data/WOB/RWOB.R" file.
+Running the GatherWOB.R file will execute the code contained in the RWOB.R file, which then creates the two files: 
+"Data/WOB/uncleanWOB.csv" and "Data/WOB/wob.csv" files. The MergeData.R file uses the output of GatherFinancials.R
+and GatherWOB.R (i.e. financials.csv and wob.csv files respectively) to combine data from both file outputs. Running
+the MergeData.R file will create the MainData.csv file (or sample data file for the study). The MakeFile.R file
+is the only file that should be executed to create MainData.csv (or sample data file for the study). Running the MakeFile.R
+file will execute the GatherFinancials.R, GatherWOB.R, and MergeData.R files and create all necessary csv file needed
+for the study. 
+
+WARNING: Although it is possible to run individually each R file to create the data or csv file that are needed for 
+the study. However, it is advised that you adhere to running only the MakeFile.R file. Where errors may occur, you
+are advised to alter the root directory based on the directory architeture of your system. All research files,
+including the data files have been created in a "MastersThesisProject" directory under the C:/ drive or root directory
+drive of a Windows 10 Operating System.
+
+
+(5)
+C:/MastersThesisProject/Data/
+---------> MainData.csv
+---------> randomSample_ROAA_percentWOBGroup.csv
+---------> randomSample_ROAE_percentWOBGroup.csv
+---------> variable_description.txt (Variable description file)
+
+In addition to the MainData.csv file created as a result of running the after running the /Data/GatherSource/MakeFile.R file,
+there are two other important data files required for the study. Both of these data files are extracted from the MainData.csv
+file and are used for futher analysis in the study. These files are "randomSample_ROAA_percentWOBGroup.csv" and
+"randomSample_ROAE_percentWOBGroup.csv". 
+
+Access the "C:\MastersThesisProject\Presentation\Article\Analysis\kruskal\randomSamplingForKruskalTest_ROAA_percentWOB" 
+and "C:\MastersThesisProject\Presentation\Article\Analysis\kruskal\randomSamplingForkruskalTest_ROAE_percentWOB" files to
+learn how the "randomSample_ROAA_percentWOBGroup.csv" and "randomSample_ROAE_percentWOBGroup.csv" files are created.

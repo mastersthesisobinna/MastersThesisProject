@@ -1,0 +1,21 @@
+In this section we review ten past studies in the corporate governance literature that are known to have empirically investigated the relationship between female directors and financial performance of the firm. The results from all ten of these studies have generally been mixed. Some have reported either a positive or negative relationship between female directors and financial performance of the firm, while others have been inconclusive on the subject matter itself. We present all ten empirical studies in the following subsections: (1) positive relationship (see page \pageref{sssec:positive}), (2) negative relationship (see page \pageref{sssec:negative}), and (3) no relationship (see page \pageref{sssec:nonsig}).
+
+\setcounter{subsection}{-1}
+
+\refstepcounter{subsection}
+\subsection*{\raggedright \normalsize Positive Relationship} \label{sssec:positive}
+\addcontentsline{toc}{subsection}{Positive Relationship}
+<<positive, child='/subsub/positive.Rnw'>>=
+@
+
+\refstepcounter{subsection}
+\subsection*{\raggedright \normalsize Negative Relationship} \label{sssec:negative}
+\addcontentsline{toc}{subsection}{Negative Relationship}
+<<negative, child='/subsub/negative.Rnw'>>=
+@
+
+\refstepcounter{subsection}
+\subsection*{\raggedright \normalsize No Relationship} \label{sssec:nonsig}
+\addcontentsline{toc}{subsection}{No Relationship}
+<<nonrelationship, child='/subsub/nonsignificant.Rnw'>>=
+@

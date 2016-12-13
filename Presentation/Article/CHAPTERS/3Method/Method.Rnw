@@ -1,0 +1,19 @@
+\setcounter{section}{-1}
+
+\refstepcounter{section}
+\section*{\centering \normalsize Research Design}
+\addcontentsline{toc}{section}{Research Design}
+<<design, child='/sub/design.Rnw'>>=
+@
+
+\refstepcounter{section}
+\section*{\centering \normalsize Sample}
+\addcontentsline{toc}{section}{Sample}
+<<sample, child='/sub/sample.Rnw'>>=
+@
+
+\refstepcounter{section}
+\section*{\centering \normalsize Data Gathering Procedure and Variables}
+\addcontentsline{toc}{section}{Data Gathering Procedure and Variables}
+<<collection, child='/sub/dataCollection.Rnw'>>=
+@

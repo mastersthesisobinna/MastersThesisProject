@@ -1,0 +1,20 @@
+We employed the Shapiro-Wilks normality test to analyze the normal distribution of three selected variables included in our sample. We were able to determine the appropriate statistical techniques required for the present study by testing the normality of the following variables: ROAA, ROAE, and percentWOB. The results of the Shapiro-Wilks normality test are presented in \autoref{Shapiro} below. We find that the \emph{p} value for ROAA is less than 0.05 (\emph{p}=0.0044). Also, we find that the \emph{p} value for ROAE is less than 0.05 (\emph{p}=0.0001). Furthermore, we find that the \emph{p} value for percentWOB is less than 0.05 (\emph{p}=0.0231). 
+
+The results of the Shapiro-Wilks normality test for all three variables included in our sample are statistically significant. Thus, the results of the Shapiro-Wilks normality test indicate that the sample does not have a normal distribution. For this reason, we employed two nonparametric statistical techniques for analyzing the data included in our sample. The "Spearman correlation" analysis-a nonparametric statistical technique-was employed to examine the likely degree of relationship (i.e. correlation) between female directors and financial performance of firm. We also employed a second nonparametric statistical technique called the "Kruskal-Wallis rank sum test" to statistically test our two null hypotheses stated earlier in the present study (see page \pageref{sec:hypothesis} for more details).
+\begin{table}[H]
+      \renewcommand\thetable{2}
+      \centering
+      \vspace*{1in}
+      \begin{tabular}{llr}
+        \hline
+       Variable & Procedure & \emph{p} value \\ 
+        \hline
+      ROAA & Shapiro-Wilk normality test & 0.0044 \\ 
+      ROAE & Shapiro-Wilk normality test & 0.0001 \\ 
+      percentWOB & Shapiro-Wilk normality test & 0.0231 \\ 
+         \hline
+      \end{tabular}
+      \caption{Shapiro Normality Test Results} 
+      \label{Shapiro}
+      \vspace*{1in}
+\end{table}

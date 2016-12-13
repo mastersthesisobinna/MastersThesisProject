@@ -1,0 +1,251 @@
+%%%%%%%%%%%%%% Article Preamble %%%%%%%%%%%%%%
+\documentclass[12pt]{report}
+
+%%%% Load LaTeX packages
+\usepackage[hidelinks]{hyperref}
+\usepackage{longtable} %used in Title.tex
+\usepackage[utf8]{inputenc}
+\usepackage[titles]{tocloft} %use the titles option to allow the href of toc work properly when clicked
+\usepackage{changepage}
+\usepackage{indentfirst} %indent the first line of every paragraph
+\usepackage{graphicx}
+\graphicspath{ {C:/MastersThesisProject/Presentation/Article/FIGURES/} }
+\usepackage{lastpage}
+\usepackage{fontspec} %set the font for the document
+\setmainfont{Arial} %selects the font for the document to use
+\usepackage{color} %I used this package to set dummytext in page title to white. This hides the text
+%packages for modifying page margins
+\usepackage{etoolbox} %to remove (or modify) the spacing above the chapter headings
+\usepackage{showframe} %show the page frame outline.
+\usepackage[paperwidth=8.5in,paperheight=11.0in,left=1.5in,right=1.0in,top=1.0in,bottom=1.0in,includefoot,heightrounded]{geometry}
+\usepackage{xpatch}
+\usepackage{float} % privides the H option
+\usepackage{enumitem} %helps create item list with no spacing between the items.
+%\usepackage{paralist} Does the same job of removing space before and after item listing as well as within
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PATCH %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+      \patchcmd{\@makechapterhead}{\vspace*{50\p@}}{\vspace*{0.6in}}{}{}%0.4in is 1in margin adjustment
+      \patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{\vspace*{0.6in}}{}{}%0.4in is 1in margin adjustment
+      
+      
+      %Using the xpatchcmd package to center all chapter headings and titles
+      \xpatchcmd{\@makeschapterhead}{%
+        \Huge \bfseries  #1\par\nobreak%
+      }{%
+        \normalfont\centering #1\par\nobreak%add \bfseries to make headings bold
+      }{\typeout{Patched makeschapterhead}}{\typeout{patching of @makeschapterhead failed}}
+      
+      \xpatchcmd{\@makechapterhead}{%
+        \huge\bfseries \@chapapp\space \thechapter
+      }{%
+        \normalfont\centering \@chapapp\space \thechapter %add \bfseries to make headings bold
+      }{\typeout{Patched @makechapterhead}}{\typeout{Patching of @makechapterhead failed}}
+      
+      
+      %Patch for adjusting the gaps between the items in LOT and LOF that occurs between chapters.
+      \def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+      \refstepcounter{chapter}%
+      \typeout{\@chapapp\space\thechapter.}%
+      \addcontentsline{toc}{chapter}%
+      {\protect\numberline{\thechapter}#1}%
+      \else
+      \addcontentsline{toc}{chapter}{#1}%
+      \fi
+      \else
+      \addcontentsline{toc}{chapter}{#1}%
+      \fi
+      \chaptermark{#1}%
+      %                    \addtocontents{lof}{\protect\addvspace{10\p@}}% NEW :Uncomment to recreate back gap
+      %                    \addtocontents{lot}{\protect\addvspace{10\p@}}% NEW :Uncomment to recreate back gap
+      \if@twocolumn
+      \@topnewpage[\@makechapterhead{#2}]%
+      \else
+      \@makechapterhead{#2}%
+      \@afterheading
+      \fi}
+      
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% END OF PATCH %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%HANGING INDENT FOR REFERENCE LIST USE THE \hangpara command on each paragraph to hang-indent
+\newcommand{\hangpara}{
+ \setlength{\parindent}{0cm} % don't indent new paragraphs
+ \hangindent=1.5cm % indent all subsequent lines
+}
+
+
+%TEXT SPACING AND VARYING SECTION HEADING SPACING, AND FONT SIZE
+%Space setting
+\renewcommand{\cftchapfont}{} %tocloft package command that allows unbolding the items in the toc
+\renewcommand{\cftchappagefont}{} %tocloft package command that allows unbolding the items in the toc
+\usepackage{setspace}
+\usepackage{titlesec}
+\renewcommand{\chaptername}{CHAPTER}{\normalfont}
+\titlespacing*{\chapter}{0pt}{0.5in}{0in} %{}{before}{after} Chapter heading spacing as shown in page
+\titlespacing*{\section}{0pt}{0in}{0in} %{}{before}{after} Section heading spacing as shown in page
+\titlespacing*{\subsection}{0pt}{0in}{0in} %{}{before}{after} Subsection heading spacing as shown in page
+\titleformat{\chapter}[display]
+{\normalfont\normalfont\centering}{\chaptertitlename\ \thechapter}{0pt}{\normalfont\uppercase}%UPPERCASE chapters
+\renewcommand{\UrlFont}{\normalsize \normalfont} %Adjust URL font size
+
+
+%TOC Numbering indent to left align
+\newlength\mylensec
+\setlength{\mylensec}{0.75em} %section indent spacing from numbering
+\renewcommand{\cftsecpresnum}{\hfill} %(needed adjust the section numbering indentation to left indent)
+\renewcommand{\cftsecaftersnum}{\hspace*{\mylensec}} %can be used to futher adjust the mylensec spacing
+\addtolength{\cftsecnumwidth}{\mylensec} %omitting this will right align the numbering
+\newlength\mylenchap
+\setlength{\mylenchap}{0.5em} %chapter indent spacing from numbering
+\renewcommand{\cftchappresnum}{\hfill} %(needed adjust the chapter numbering indentation to left indent)
+\renewcommand{\cftchapaftersnum}{.\hspace*{\mylenchap}} %cftchapaftersnum can be used to adjust space, and even customize label like here we added the dot after the numbering.
+\addtolength{\cftchapnumwidth}{1em} %although omitting will not right align the numbering but include it
+\setlength{\cftsecindent}{2cm}
+\setlength{\cftsubsecindent}{3cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  BEGIN DOCUMENT  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\doublespacing %from the setspace package
+\sloppy %prevents text from going off the margin
+\renewcommand{\thechapter}{\Roman{chapter}} %Make each chapter in TOC have a different numbering style.
+\renewcommand{\cftdot}{} %from the tocloft package. remove leading dotted lines in TOC
+\setlength{\cftbeforechapskip}{0pt} %From tocloft package. Removes gap between items listed in TOC 
+\renewcommand{\cftpartfont}{\normalfont} % make parts look like sections in TOC
+\renewcommand{\cftpartpagefont}{\normalfont}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%TITLE
+    <<Title, child='/Article/CHAPTERS/0Title/Title.Rnw'>>=
+    @
+    \clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%PAGE LABEL ON TOC 
+    \addtocontents{toc}{~\hfill\ Page\par}
+    \pagenumbering{roman}
+
+%ACKNOWLEDGMENT  
+    \setcounter{chapter}{-1}% counter sets to 0, then \refstepcounter{chapter} produce 1
+    \chapter*{ACKNOWLEDGMENTS} %The asterix prevents it to show on TOC, but it shows as the header in page.
+    \addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS} %select a name for page and then add it to the TOC.
+    <<Aknowledgment, child='/Article/CHAPTERS/1Acknowledgment/Aknowledgment.Rnw'>>=
+    @
+    \clearpage
+    
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+%TABLE OF CONTENTS
+    \renewcommand\contentsname{CONTENTS} %Change the display of CONTENT on the content page
+    %\renewcommand{\cftchapaftersnum}{.}
+    \normalfont \tableofcontents
+    \addcontentsline{toc}{chapter}{CONTENTS} %create the bookmarks
+    \clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%LIST OF TABLES
+    %\setlength\cftbeforetabskip{11pt}%Adjust the gap between the LOT items. Patch for chapter gaps in makeletter.
+    
+    \setlength{\cfttabindent}{0pt} %indent the table
+    \addtocontents{lot}{\noindent Table\hfill\ Page\par}
+    \renewcommand\listtablename{TABLES}
+    \renewcommand{\cfttabaftersnum}{.} %put a period after the number
+    \listoftables
+    \addcontentsline{toc}{chapter}{TABLES}
+    \clearpage
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    
+%LIST OF FIGURES
+    \addtocontents{lof}{\noindent Figure\hfill\ Page\par}
+    \renewcommand\listfigurename{FIGURES}
+    \renewcommand{\cftfigaftersnum}{.} %put a period after the number
+    \listoffigures
+    \addcontentsline{toc}{chapter}{FIGURES}
+    \clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \pagenumbering{arabic} %New page numbering
+    \addtocontents{toc}{\cftpagenumbersoff{chapter}} %Temporary turn off chapter number in TOC.
+
+%CHAPTER ADDED TO TOC (UN-NUMBERED)  
+    \refstepcounter{chapter} %Counting from 1
+    \addcontentsline{toc}{chapter}{CHAPTER}
+    \addtocontents{toc}{\cftpagenumberson{chapter}} %Turn on chapter number in TOC
+    \addtocontents{toc}{\protect\begin{adjustwidth}{0.5cm}{0cm}}%Start chapter indenting in TOC
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%INTRODUCTION
+        \chapter{\normalfont \normalsize INTRODUCTION}
+        <<INTRODUCTION, child='/Article/CHAPTERS/2.0Introduction/introduction.Rnw'>>=
+        @
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%LITERATURE REVIEW
+        \chapter{\normalfont \normalsize LITERATURE REVIEW} \label{chap:lit}
+        <<LITERATURE, child='/Article/CHAPTERS/2Literature/Literature.Rnw'>>=
+        @
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%RESEARCH DESIGN
+        \chapter{\normalfont \normalsize METHOD}
+        <<METHOD, child='/Article/CHAPTERS/3Method/Method.Rnw'>>=
+        @
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        
+%RESULTS
+        \chapter{\normalfont \normalsize RESULTS AND ANALYSIS} \label{chap:resultsAnalysis}
+        <<RESULTS, child='/Article/CHAPTERS/4Result/Result.Rnw'>>=
+        @
+        
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+        
+%CONCLUSION
+        \chapter{\normalfont \normalsize CONCLUSION}
+        <<conclusion, child='/Article/CHAPTERS/5Conclusion/Conclusion.Rnw'>>=
+        @
+    
+    \addtocontents{toc}{\protect\end{adjustwidth}} %End chapter indenting in TOC.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%REFERENCES
+    \setcounter{chapter}{4} %counter set to 5. We need chapter 6
+    \refstepcounter{chapter}%counter increments that to 6, which is what we need.
+    \chapter*{REFERENCES} %Chapter 6 but is forced with the asterix to prevent showing in TOC
+    \addcontentsline{toc}{chapter}{REFERENCES} %We manually add a reference ourselve
+    <<refer, child='/Article/CHAPTERS/6References/References.Rnw'>>=
+    @
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  END DOCUMENT  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

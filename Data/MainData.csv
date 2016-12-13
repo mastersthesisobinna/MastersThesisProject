@@ -1,0 +1,50 @@
+"","firm","ticker","netIncome2015","asset2015","asset2014","stock2015","stock2014","ROAA","ROAE","Board","WOB","Sector","State","City","Country","percentWOB"
+"1","Activision Blizzard, Inc.","ATVI",8.92e+08,1.5251e+10,1.4642e+10,8.068e+09,7.233e+09,5.97,11.66,9,1,"Technology","California","Santa Monica","United States",11
+"2","Acuity Brands, Inc.","AYI",222100000,2429600000,2166400000,1.36e+09,1163500000,9.66,17.6,11,1,"Technology","Georgia","Atlanta","United States",9
+"3","Adobe Systems Inc.","ADBE",629551000,11726472000,10785829000,7001580000,6775905000,5.59,9.14,13,2,"Technology","California","San Jose","United States",15
+"4","Akamai Technologies, Inc.","AKAM",321406000,4187925000,4001546000,3120878000,2945335000,7.85,10.6,11,3,"Technology","Massachusetts","Cambridge","United States",27
+"5","Amphenol Corporation","APH",763500000,7458400000,6985900000,3238500000,2907400000,10.57,24.85,9,0,"Technology","Connecticut","Wallingford","United States",0
+"6","Analog Devices, Inc.","ADI",696878000,7062178000,6859690000,5072959000,4757897000,10.01,14.18,12,1,"Technology","Massachusetts","Norwood","United States",8
+"7","Apple Inc.","AAPL",5.3394e+10,2.90479e+11,2.31839e+11,1.19355e+11,1.11547e+11,20.45,46.25,7,2,"Technology","California","Cupertino","United States",29
+"8","Applied Materials, Inc.","AMAT",1.377e+09,1.5308e+10,1.3174e+10,7.613e+09,7.868e+09,9.67,17.79,10,1,"Technology","California","Santa Clara","United States",10
+"9","Autodesk, Inc.","ADSK",81800000,4909700000,4.595e+09,2219200000,2261500000,1.72,3.65,10,3,"Technology","California","San Rafael","United States",30
+"10","CA, Inc.","CA",8.46e+08,1.0973e+10,1.2016e+10,5.625e+09,5.57e+09,7.36,15.11,12,2,"Technology","New York","New York","United States",17
+"12","Cisco Systems, Inc.","CSCO",8.981e+09,1.13373e+11,1.0507e+11,5.9698e+10,5.6654e+10,8.22,15.44,11,3,"Technology","California","San Jose","United States",27
+"13","Citrix Systems, Inc.","CTXS",319361000,5481438000,5512007000,1973446000,2173645000,5.81,15.4,10,1,"Technology","Florida","Fort Lauderdale","United States",10
+"14","Cognizant Technology Solutions Corporation","CTSH",1623600000,13065400000,1.1479e+10,9278100000,7740200000,13.23,19.08,9,1,"Technology","New Jersey","Teaneck","United States",11
+"15","Corning, Inc.","GLW",1.339e+09,2.8547e+10,3.0063e+10,1.8788e+10,2.1579e+10,4.57,6.63,14,3,"Technology","New York","Corning","United States",21
+"16","Electronic Arts Inc.","EA",8.75e+08,6.147e+09,5.716e+09,3.036e+09,2.422e+09,14.75,32.06,9,1,"Technology","California","Redwood City","United States",11
+"17","F5 Networks, Inc.","FFIV",365014000,2312290000,2184950000,1316728000,1369310000,16.23,27.18,9,2,"Technology","Washington","Seattle","United States",22
+"18","Facebook, Inc.","FB",3.669e+09,4.9407e+10,3.9966e+10,4.4218e+10,3.6096e+10,8.21,9.14,9,2,"Technology","California","Menlo Park","United States",22
+"19","First Solar, Inc.","FSLR",546421000,7316331000,6720991000,5548487000,4991487000,7.79,10.37,11,1,"Technology","Arizona","Tempe","United States",9
+"20","FLIR Systems, Inc.","FLIR",241686000,2406400000,2349311000,1649515000,1609773000,10.16,14.83,10,2,"Technology","Oregon","WILSONVILLE","United States",20
+"21","Google, Inc.","GOOG",1.6348e+10,1.47461e+11,1.29187e+11,1.20331e+11,1.0386e+11,11.82,14.58,11,3,"Technology","California","Mountain View","United States",27
+"22","Harman International Industries Inc.","HAR",342680000,5865900000,4125590000,2374613000,1792578000,6.86,16.45,10,3,"Technology","Connecticut","Stamford","United States",30
+"23","Harris Corporation","HRS",3.34e+08,1.3127e+10,4.919e+09,3.397e+09,1.826e+09,3.7,12.79,12,2,"Technology","Florida","Melbourne","United States",17
+"24","Hewlett-Packard Company","HPE",2.461e+09,8.127e+10,6.5071e+10,3.3535e+10,3.6776e+10,3.36,7,12,3,"Technology","California","Palo Alto","United States",25
+"25","Intel Corporation","INTC",1.142e+10,1.03065e+11,9.19e+10,6.1085e+10,5.5865e+10,11.71,19.53,11,2,"Technology","California","Santa Clara","United States",18
+"26","Intuit Inc.","INTU",3.65e+08,4.968e+09,5.201e+09,2.332e+09,3.078e+09,7.18,13.49,9,2,"Technology","California","Mountain View","United States",22
+"27","Juniper Networks, Inc.","JNPR",633700000,8619200000,8281400000,4574400000,4919100000,7.5,13.35,10,1,"Technology","California","Sunnyvale","United States",10
+"28","KLA-Tencor Corporation","KLAC",366158000,4826012000,5535846000,421439000,3669346000,7.07,17.9,11,1,"Technology","California","Milpitas","United States",9
+"29","Lam Research Corporation","LRCX",655577000,9364648000,7993306000,5103144000,5029735000,7.55,12.94,11,2,"Technology","California","Fremont","United States",18
+"30","Linear Technology Corporation","LLTC",520963000,1884079000,1655578000,1577927000,1331369000,29.44,35.81,7,0,"Technology","California","Milpitas","United States",0
+"31","Microchip Technology Incorporated","MCHP",369009000,4780713000,4067630000,2044654000,2135461000,8.34,17.66,5,1,"Technology","Arizona","Chandler","United States",20
+"32","Micron Technology, Inc.","MU",2.899e+09,2.4143e+10,2.2416e+10,1.2302e+10,1.076e+10,12.45,25.14,8,1,"Technology","Idaho","Boise","United States",12
+"33","Microsoft Corporation","MSFT",1.2193e+10,1.74472e+11,1.72384e+11,8.0083e+10,8.9784e+10,7.03,14.36,10,2,"Technology","Washington","Redmond","United States",20
+"34","Motorola Solutions, Inc.","MSI",6.1e+08,8.387e+09,1.0423e+10,-1.06e+08,2.735e+09,6.49,46.41,10,2,"Technology","Illinois","Schaumburg","United States",20
+"35","NetApp Inc.","NTAP",5.6e+08,9.401e+09,9213800000,3.414e+09,3786500000,6.02,15.55,10,1,"Technology","California","Sunnyvale","United States",10
+"36","NVIDIA Corporation","NVDA",6.31e+08,7.201e+09,7250894000,4.418e+09,4456398000,8.73,14.22,12,2,"Technology","California","Santa Clara","United States",17
+"37","Oracle Corporation","ORCL",9.938e+09,1.10903e+11,9.0266e+10,4.8663e+10,4.6878e+10,9.88,20.8,12,2,"Technology","California","Redwood City","United States",17
+"38","Qualcomm, Inc.","QCOM",5.271e+09,5.0796e+10,4.8574e+10,3.1421e+10,3.9169e+10,10.61,14.93,15,3,"Technology","California","San Diego","United States",20
+"39","Red Hat, Inc.","RHT",180201000,3784569000,3106619000,1288338000,1551165000,5.23,12.69,10,2,"Technology","North Carolina","Raleigh","United States",20
+"40","Salesforce.com","CRM",-262688000,10665127000,9152930000,3975183000,3038510000,-2.65,-7.49,11,2,"Technology","California","San Francisco","United States",18
+"41","Skyworks Solutions, Inc.","SWKS",798300000,3719400000,2973800000,3159200000,2532400000,23.85,28.05,8,1,"Technology","Massachusetts","Woburn","United States",12
+"42","Symantec Corporation","SYMC",8.78e+08,1.3233e+10,1.3539e+10,5.935e+09,5.797e+09,6.56,14.97,9,3,"Technology","California","Mountain View","United States",33
+"43","Teradata Corporation","TDC",-2.14e+08,2.53e+09,3.132e+09,8.49e+08,1.707e+09,-7.56,-16.74,11,2,"Technology","Ohio","Dayton","United States",18
+"44","Texas Instruments, Inc.","TXN",2.986e+09,1.623e+10,1.7372e+10,9.946e+09,1.039e+10,17.77,29.37,12,5,"Technology","Texas","Dallas","United States",42
+"45","TripAdvisor Inc.","TRIP",1.98e+08,2.128e+09,1.948e+09,1.412e+09,1.125e+09,9.72,15.61,9,1,"Technology","Massachusetts","Newton","United States",11
+"46","VeriSign, Inc.","VRSN",375236000,2357737000,1901150000,-1070447000,-883466000,17.62,-38.41,7,2,"Technology","Virginia","Reston","United States",29
+"47","Western Digital Corporation","WDC",1.465e+09,1.517e+10,1.5499e+10,9.219e+09,8.842e+09,9.55,16.22,9,2,"Technology","California","Irvine","United States",22
+"48","Xerox Corporation","XRX",4.74e+08,2.4817e+10,2.7658e+10,9.074e+09,1.0678e+10,1.81,4.8,9,4,"Technology","Connecticut","Norwalk","United States",44
+"49","Xilinx, Inc.","XLNX",648216000,4898065000,5037349000,2611594000,2752682000,13.05,24.17,7,1,"Technology","California","San Jose","United States",14
+"50","Yahoo! Inc.","YHOO",-4359082000,45203966000,61707336000,29043537000,38741837000,-8.15,-12.86,9,4,"Technology","California","Sunnyvale","United States",44

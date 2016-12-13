@@ -1,0 +1,278 @@
+"firm","Board","WOB","Sector","State","City","Country","percentWOB"
+"Avid Technology Inc.",8,4,"Technology","Massachusetts","Burlington","United States",50
+"iRobot Corporation",8,4,"Technology","Massachusetts","Bedford","United States",50
+"Xerox Corporation",9,4,"Technology","Connecticut","Norwalk","United States",44
+"Yahoo! Inc.",9,4,"Technology","California","Sunnyvale","United States",44
+"Travelzoo Inc.",7,3,"Technology","New York","New York","United States",43
+"Texas Instruments, Inc.",12,5,"Technology","Texas","Dallas","United States",42
+"Ixia",5,2,"Technology","California","Calabasas","United States",40
+"Accenture PLC",13,5,"Technology","","Dublin","United States",38
+"Unisys Corporation",8,3,"Technology","Pennsylvania","Blue Bell","United States",38
+"The Aerospace Corporation",14,5,"Technology","California","El Segundo","United States",36
+"Itron, Inc.",12,4,"Technology","Washington","Liberty Lake","United States",33
+"MTS Systems Corporation",9,3,"Technology","Minnesota","Eden Prairie","United States",33
+"Netgear, Inc.",9,3,"Technology","California","San Jose","United States",33
+"PC Connection, Inc.",6,2,"Technology","New Hampshire","Merrimack","United States",33
+"Rosetta Stone Inc.",9,3,"Technology","Virginia","Arlington","United States",33
+"Symantec Corporation",9,3,"Technology","California","Mountain View","United States",33
+"Autodesk, Inc.",10,3,"Technology","California","San Rafael","United States",30
+"Harman International Industries Inc.",10,3,"Technology","Connecticut","Stamford","United States",30
+"Ingram Micro Inc.",10,3,"Technology","California","Santa Ana","United States",30
+"Twitter, Inc.",10,3,"Technology","California","San Francisco","United States",30
+"Apple Inc.",7,2,"Technology","California","Cupertino","United States",29
+"Athenahealth, Inc.",7,2,"Technology","Massachusetts","Watertown","United States",29
+"Babcock & Wilcox Enterprises Inc",7,2,"Technology","North Carolina","Charlotte","United States",29
+"CalAmp Corporation",7,2,"Technology","California","Oxnard","United States",29
+"Care.com Inc.",7,2,"Technology","Massachusetts","Waltham","United States",29
+"eMagin Corp",7,2,"Technology","New York","New York","United States",29
+"Fitbit, Inc.",7,2,"Technology","California","San Francisco","United States",29
+"Monotype Imaging Holdings Inc.",7,2,"Technology","Massachusetts","Woburn","United States",29
+"Qualys, Inc.",7,2,"Technology","California","Redwood City","United States",29
+"Super Micro Computer, Inc.",7,2,"Technology","California","San Jose","United States",29
+"VeriSign, Inc.",7,2,"Technology","Virginia","Reston","United States",29
+"Akamai Technologies, Inc.",11,3,"Technology","Massachusetts","Cambridge","United States",27
+"Cisco Systems, Inc.",11,3,"Technology","California","San Jose","United States",27
+"Google, Inc.",11,3,"Technology","California","Mountain View","United States",27
+"Benchmark Electronics, Inc.",8,2,"Technology","Texas","Angleton","United States",25
+"Harmonic Inc.",8,2,"Technology","California","San Jose","United States",25
+"Hewlett-Packard Company",12,3,"Technology","California","Palo Alto","United States",25
+"Imperva Inc.",8,2,"Technology","California","Redwood Shores","United States",25
+"Marketo, Inc.",8,2,"Technology","California","San Mateo","United States",25
+"MKS Instruments, Inc.",8,2,"Technology","Massachusetts","Andover","United States",25
+"Polycom, Inc.",8,2,"Technology","California","San Jose","United States",25
+"Silicon Graphics International Corporation",8,2,"Technology","California","Milpitas","United States",25
+"Zynga, Inc.",8,2,"Technology","California","San Francisco","United States",25
+"IAC/InterActiveCorp",13,3,"Technology","New York","New York","United States",23
+"Arrow Electronics, Inc.",9,2,"Technology","Colorado","Centennial","United States",22
+"Axcelis Technologies, Inc.",9,2,"Technology","Massachusetts","Beverly","United States",22
+"Broadcom Corporation",9,2,"Technology","California","Irvine","United States",22
+"Ciena Corporation",9,2,"Technology","Maryland","Hanover","United States",22
+"F5 Networks, Inc.",9,2,"Technology","Washington","Seattle","United States",22
+"Facebook, Inc.",9,2,"Technology","California","Menlo Park","United States",22
+"Gartner, Inc.",9,2,"Technology","Connecticut","Stamford","United States",22
+"Intuit Inc.",9,2,"Technology","California","Mountain View","United States",22
+"NCR Corporation",9,2,"Technology","Georgia","Duluth","United States",22
+"Netsuite Inc.",9,2,"Technology","California","San Mateo","United States",22
+"Omnicell Inc.",9,2,"Technology","California","Mountain View","United States",22
+"Rackspace Hosting, Inc.",9,2,"Technology","Texas","City of Windcrest","United States",22
+"Sabre Corporation",9,2,"Technology","Texas","Southlake","United States",22
+"Science Applications International Corporation",9,2,"Technology","Virginia","McLean","United States",22
+"Splunk Inc.",9,2,"Technology","California","San Francisco","United States",22
+"Western Digital Corporation",9,2,"Technology","California","Irvine","United States",22
+"Yelp, Inc.",9,2,"Technology","California","San Francisco","United States",22
+"Corning, Inc.",14,3,"Technology","New York","Corning","United States",21
+"International Business Machines Corporation",14,3,"Technology","New York","Armonk","United States",21
+"ARRIS Group Inc.",10,2,"Technology","Georgia","Suwanee","United States",20
+"Avnet, Inc.",10,2,"Technology","Arizona","Phoenix","United States",20
+"Brooks Automation, Inc.",10,2,"Technology","Massachusetts","Chelmsford","United States",20
+"Concurrent Technologies Corporation",10,2,"Technology","Pennsylvania","Johnstown","United States",20
+"CyberOptics Corporation",5,1,"Technology","Minnesota","Minneapolis","United States",20
+"DTS Inc.",5,1,"Technology","California","Calabasas","United States",20
+"Echelon Corporation",5,1,"Technology","California","San Jose","United States",20
+"FLIR Systems, Inc.",10,2,"Technology","Oregon","WILSONVILLE","United States",20
+"International Rectifier Corporation",10,2,"Technology","California","El Segundo","United States",20
+"Jive Software, Inc.",10,2,"Technology","California","Palo Alto","United States",20
+"Keynetics, Inc.",5,1,"Technology","Idaho","Boise","United States",20
+"Leidos Holdings, Inc.",10,2,"Technology","Virginia","Reston","United States",20
+"Microchip Technology Incorporated",5,1,"Technology","Arizona","Chandler","United States",20
+"Microsoft Corporation",10,2,"Technology","Washington","Redmond","United States",20
+"Motorola Solutions, Inc.",10,2,"Technology","Illinois","Schaumburg","United States",20
+"Plexus Corporation",10,2,"Technology","Wisconsin","Neenah","United States",20
+"Qualcomm, Inc.",15,3,"Technology","California","San Diego","United States",20
+"QuinStreet, Inc.",10,2,"Technology","California","Foster City","United States",20
+"Red Hat, Inc.",10,2,"Technology","North Carolina","Raleigh","United States",20
+"ServiceNow, Inc.",10,2,"Technology","California","Santa Clara","United States",20
+"Synopsys, Inc.",10,2,"Technology","California","Mountain View","United States",20
+"Advanced Micro Devices, Inc.",11,2,"Technology","California","Sunnyvale","United States",18
+"Compuware Corporation",11,2,"Technology","Michigan","Detroit","United States",18
+"Ellie Mae, Inc.",11,2,"Technology","California","Pleasanton","United States",18
+"Intel Corporation",11,2,"Technology","California","Santa Clara","United States",18
+"Lam Research Corporation",11,2,"Technology","California","Fremont","United States",18
+"Salesforce.com",11,2,"Technology","California","San Francisco","United States",18
+"Sonus Networks, Inc.",11,2,"Technology","Massachusetts","Westford","United States",18
+"Teledyne Technologies Inc.",11,2,"Technology","California","Thousand Oaks","United States",18
+"Teradata Corporation",11,2,"Technology","Ohio","Dayton","United States",18
+"Whirlpool Corporation",11,2,"Technology","Michigan","Benton Harbor","United States",18
+"AMSC",6,1,"Technology","Massachusetts","Devens","United States",17
+"Anixter International, Inc.",12,2,"Technology","Illinois","Glenview","United States",17
+"Aspen Technology",6,1,"Technology","Massachusetts","Bedford","United States",17
+"CA, Inc.",12,2,"Technology","New York","New York","United States",17
+"GSE Systems, Inc.",6,1,"Technology","Maryland","Sykesville","United States",17
+"Harris Corporation",12,2,"Technology","Florida","Melbourne","United States",17
+"Lexmark International Inc.",12,2,"Technology","Kentucky","Lexington","United States",17
+"Marvell Technology Group Ltd.",6,1,"Technology","","Hamilton","United States",17
+"Nanometrics Inc.",6,1,"Technology","California","Milpitas","United States",17
+"NVIDIA Corporation",12,2,"Technology","California","Santa Clara","United States",17
+"Oracle Corporation",12,2,"Technology","California","Redwood City","United States",17
+"Take-Two Interactive Software",6,1,"Technology","New York","New York","United States",17
+"Adobe Systems Inc.",13,2,"Technology","California","San Jose","United States",15
+"Callidus Software, Inc.",7,1,"Technology","California","Pleasanton","United States",14
+"Coherent Inc.",7,1,"Technology","California","Santa Clara","United States",14
+"Cornerstone OnDemand, Inc.",7,1,"Technology","California","Santa Monica","United States",14
+"Extreme Networks, Inc.",7,1,"Technology","California","San Jose","United States",14
+"FARO Technologies",7,1,"Technology","Florida","Lake Mary","United States",14
+"General Cable Corporation",7,1,"Technology","Kentucky","Highland Heights","United States",14
+"Infoblox Inc.",7,1,"Technology","California","Santa Clara","United States",14
+"LinkedIn Corporation",7,1,"Technology","California","Mountain View","United States",14
+"M/A-COM Technology Solutions Holdings, Inc.",7,1,"Technology","Massachusetts","Lowell","United States",14
+"Monolithic Power Systems, Inc.",7,1,"Technology","California","San Jose","United States",14
+"Multi-Fineline Electronix, Inc.",7,1,"Technology","California","Irvine","United States",14
+"National Instruments Corporation",7,1,"Technology","Texas","Austin","United States",14
+"NCI, Inc.",7,1,"Technology","Virginia","Reston","United States",14
+"Proofpoint, Inc.",7,1,"Technology","California","Sunnyvale","United States",14
+"Rambus, Inc.",7,1,"Technology","California","Sunnyvale","United States",14
+"Rovi Corporation",7,1,"Technology","California","Santa Clara","United States",14
+"Ruckus Wireless, Inc.",7,1,"Technology","California","Sunnyvale","United States",14
+"SeaChange International, Inc.",7,1,"Technology","Massachusetts","Acton","United States",14
+"Speed Commerce Inc.",7,1,"Technology","Texas","Richardson","United States",14
+"United Online, Inc.",7,1,"Technology","California","Woodland Hills","United States",14
+"Xilinx, Inc.",7,1,"Technology","California","San Jose","United States",14
+"Allscripts Healthcare Solutions, Inc.",8,1,"Technology","Illinois","Chicago","United States",12
+"Avago Technologies Limited",8,1,"Technology","","Singapore","United States",12
+"Bankrate Inc",8,1,"Technology","New York","New York","United States",12
+"Fair Isaac Corporation",8,1,"Technology","California","San Jose","United States",12
+"GoPro, Inc",8,1,"Technology","California","San Mateo","United States",12
+"Groupon Inc.",8,1,"Technology","Illinois","Chicago","United States",12
+"IMS Health Holdings, Inc.",8,1,"Technology","Connecticut","Danbury","United States",12
+"Inphi Corporation",8,1,"Technology","California","Santa Clara","United States",12
+"InvenSense, Inc.",8,1,"Technology","California","San Jose","United States",12
+"ManTech International Corporation",8,1,"Technology","Virginia","Fairfax","United States",12
+"Micron Technology, Inc.",8,1,"Technology","Idaho","Boise","United States",12
+"ON Semiconductor Corporation",8,1,"Technology","Arizona","Phoenix","United States",12
+"PTC Inc.",8,1,"Technology","Massachusetts","Needham","United States",12
+"QLogic Corporation",8,1,"Technology","California","Aliso Viejo","United States",12
+"SanDisk Corporation",8,1,"Technology","California","Milpitas","United States",12
+"ShoreTel Inc.",8,1,"Technology","California","Sunnyvale","United States",12
+"Silver Spring Networks, Inc.",8,1,"Technology","California","Redwood City","United States",12
+"Skyworks Solutions, Inc.",8,1,"Technology","Massachusetts","Woburn","United States",12
+"SolarCity Corporation",8,1,"Technology","California","San Mateo","United States",12
+"Teradyne, Inc.",8,1,"Technology","Massachusetts","North Reading","United States",12
+"Trimble Navigation Limited",8,1,"Technology","California","Sunnyvale","United States",12
+"Watsco, Inc.",8,1,"Technology","Florida","Miami","United States",12
+"Workday Inc.",8,1,"Technology","California","Pleasanton","United States",12
+"Activision Blizzard, Inc.",9,1,"Technology","California","Santa Monica","United States",11
+"Altera Corporation",9,1,"Technology","California","San Jose","United States",11
+"Avaya Inc.",9,1,"Technology","California","Santa Clara","United States",11
+"Brocade Communications Systems, Inc.",9,1,"Technology","California","San Jose","United States",11
+"Cadence Design Systems, Inc.",9,1,"Technology","California","San Jose","United States",11
+"Cerner Corporation",9,1,"Technology","Missouri","North Kansas City","United States",11
+"Cognizant Technology Solutions Corporation",9,1,"Technology","New Jersey","Teaneck","United States",11
+"Electronic Arts Inc.",9,1,"Technology","California","Redwood City","United States",11
+"Fairchild Semiconductor International, Inc.",9,1,"Technology","California","San Jose","United States",11
+"Insight Enterprises, Inc.",9,1,"Technology","Arizona","Tempe","United States",11
+"Intersil Corporation",9,1,"Technology","California","Milpitas","United States",11
+"Jabil Circuit, Inc.",9,1,"Technology","Florida","St. Petersburg","United States",11
+"Marin Software, Inc.",9,1,"Technology","California","San Francisco","United States",11
+"Sanmina Corporation",9,1,"Technology","California","San Jose","United States",11
+"Semtech Corporation",9,1,"Technology","California","Camarillo","United States",11
+"SunEdison Inc",9,1,"Technology","Missouri","Maryland Heights","United States",11
+"SunPower Corporation",9,1,"Technology","California","San Jose","United States",11
+"Sykes Enterprises",9,1,"Technology","Florida","Tampa","United States",11
+"Tech Data Corporation",9,1,"Technology","Florida","Clearwater","United States",11
+"TripAdvisor Inc.",9,1,"Technology","Massachusetts","Newton","United States",11
+"VMware, Inc.",9,1,"Technology","California","Palo Alto","United States",11
+"Vocera Communications, Inc.",9,1,"Technology","California","San Jose","United States",11
+"Web.com Group",9,1,"Technology","Florida","Jacksonville","United States",11
+"Amkor Technology, Inc.",10,1,"Technology","Arizona","Chandler","United States",10
+"ANSYS, Inc.",10,1,"Technology","Pennsylvania","Canonsburg","United States",10
+"Applied Materials, Inc.",10,1,"Technology","California","Santa Clara","United States",10
+"Belden, Inc.",10,1,"Technology","Missouri","St. Louis","United States",10
+"Citrix Systems, Inc.",10,1,"Technology","Florida","Fort Lauderdale","United States",10
+"Computer Sciences Corporation",10,1,"Technology","Virginia","Falls Church","United States",10
+"Cree, Inc.",10,1,"Technology","North Carolina","Durham","United States",10
+"Diebold Inc.",10,1,"Technology","Ohio","North Canton","United States",10
+"IPG Photonics Corporation",10,1,"Technology","Massachusetts","Oxford","United States",10
+"Juniper Networks, Inc.",10,1,"Technology","California","Sunnyvale","United States",10
+"NetApp Inc.",10,1,"Technology","California","Sunnyvale","United States",10
+"Nuance Communications, Inc.",10,1,"Technology","Massachusetts","Burlington","United States",10
+"Riverbed Technology, Inc.",10,1,"Technology","California","San Francisco","United States",10
+"Vishay Intertechnology Inc.",10,1,"Technology","Pennsylvania","Malvern","United States",10
+"WebMD Health Corporation",10,1,"Technology","New York","New York","United States",10
+"Acuity Brands, Inc.",11,1,"Technology","Georgia","Atlanta","United States",9
+"Fidelity National Information Services, Inc.",11,1,"Technology","Florida","Jacksonville","United States",9
+"First Solar, Inc.",11,1,"Technology","Arizona","Tempe","United States",9
+"KLA-Tencor Corporation",11,1,"Technology","California","Milpitas","United States",9
+"Analog Devices, Inc.",12,1,"Technology","Massachusetts","Norwood","United States",8
+"CDW Corporation",12,1,"Technology","Illinois","Vernon Hills","United States",8
+"EMC Corporation",12,1,"Technology","Massachusetts","Hopkington","United States",8
+"Freescale Semiconductor, Ltd.",12,1,"Technology","Texas","Austin","United States",8
+"Ambarella Inc.",7,0,"Technology","California","Santa Clara","United States",0
+"Amdocs Limited",11,0,"Technology","Missouri","Chesterfield","United States",0
+"Amphenol Corporation",9,0,"Technology","Connecticut","Wallingford","United States",0
+"API Technologies Corporation",5,0,"Technology","Florida","Orlando","United States",0
+"Applied Micro Circuits Corporation",7,0,"Technology","California","Sunnyvale","United States",0
+"Atmel Corporation",7,0,"Technology","California","San Jose","United States",0
+"AVX Corporation",9,0,"Technology","South Carolina","Fountain Inn","United States",0
+"BroadSoft, Inc.",7,0,"Technology","Maryland","Gaithersburg","United States",0
+"CACI International Inc.",10,0,"Technology","Virginia","Arlington","United States",0
+"Calix, Inc.",10,0,"Technology","California","Petaluma","United States",0
+"Carbonite, Inc.",7,0,"Technology","Massachusetts","Boston","United States",0
+"Cavium, Inc.",5,0,"Technology","California","San Jose","United States",0
+"Ceva, Inc.",7,0,"Technology","California","Mountain View","United States",0
+"Cognex Corporation",8,0,"Technology","Massachusetts","Natick","United States",0
+"Cohu Inc.",7,0,"Technology","California","Poway","United States",0
+"CommScope Holding Company, Inc.",11,0,"Technology","North Carolina","Hickory","United States",0
+"Cypress Semiconductor Corporation",8,0,"Technology","California","San Jose","United States",0
+"Demand Media Inc.",7,0,"Technology","California","Santa Monica","United States",0
+"Eastman Kodak Company",9,0,"Technology","New York","Rochester","United States",0
+"EchoStar Corporation",7,0,"Technology","Colorado","Englewood","United States",0
+"Electronics for Imaging, Inc.",6,0,"Technology","California","Fremont","United States",0
+"EnerSys",9,0,"Technology","Pennsylvania","Reading","United States",0
+"Enphase Energy, Inc.",8,0,"Technology","California","Petaluma","United States",0
+"Entegris, Inc.",9,0,"Technology","Massachusetts","Billerica","United States",0
+"ePlus, Inc.",8,0,"Technology","Virginia","Herndon","United States",0
+"Exar Corporation",6,0,"Technology","California","Fremont","United States",0
+"Finisar Corporation",6,0,"Technology","California","Sunnyvale","United States",0
+"FormFactor Inc.",6,0,"Technology","California","Livermore","United States",0
+"Fortinet, Inc.",7,0,"Technology","California","Sunnyvale","United States",0
+"Garmin Ld.",6,0,"Technology","Kansas","Olathe","United States",0
+"GSI Group",7,0,"Technology","Massachusetts","Bedford","United States",0
+"IDI Inc.",9,0,"Technology","Florida","Boca Raton","United States",0
+"Imation Corporation",6,0,"Technology","Minnesota","Oakdale","United States",0
+"Immersion Corporation",6,0,"Technology","California","San Jose","United States",0
+"Infinera Corporation",9,0,"Technology","California","Sunnyvale","United States",0
+"Integrated Device Technology, Inc.",9,0,"Technology","California","San Jose","United States",0
+"Integrated Silicon Solution, Inc.",9,0,"Technology","California","Milpitas","United States",0
+"Intermolecular Inc.",6,0,"Technology","California","San Jose","United States",0
+"IXYS Corporation",8,0,"Technology","California","Milpitas","United States",0
+"j2 Global, Inc.",6,0,"Technology","California","Hollywood","United States",0
+"Kopin Corporation",7,0,"Technology","Massachusetts","Westborough","United States",0
+"Linear Technology Corporation",7,0,"Technology","California","Milpitas","United States",0
+"Luna Innovations Inc.",7,0,"Technology","Virginia","Roanoke","United States",0
+"Maxim Integrated Products, Inc.",7,0,"Technology","California","San Jose","United States",0
+"Mercury Systems, Inc.",7,0,"Technology","Massachusetts","Chelmsford","United States",0
+"Microsemi Corporation",7,0,"Technology","California","Aliso Viejo","United States",0
+"MicroStrategy Inc.",5,0,"Technology","Virginia","Tysons Corner","United States",0
+"Model N, Inc.",6,0,"Technology","California","Redwood City","United States",0
+"NeoPhotonics Corporation",8,0,"Technology","California","San Jose","United States",0
+"NetScout Systems, Inc.",8,0,"Technology","Massachusetts","Westford","United States",0
+"Newport Corporation",6,0,"Technology","California","Irvine","United States",0
+"OmniVision Technologies, Inc.",5,0,"Technology","California","Santa Clara","United States",0
+"Oplink Communications, Inc.",5,0,"Technology","California","Fremont","United States",0
+"Optical Cable Corporation",5,0,"Technology","Virginia","Roanoke","United States",0
+"OSI Systems, Inc.",6,0,"Technology","California","Hawthorne","United States",0
+"Palo Alto Networks, Inc.",8,0,"Technology","California","Santa Clara","United States",0
+"PDF Solutions, Inc.",5,0,"Technology","California","San Jose","United States",0
+"Pegasystems, Inc.",7,0,"Technology","Massachusetts","Cambridge","United States",0
+"Plantronics, Inc.",7,0,"Technology","California","Santa Cruz","United States",0
+"Power Integrations, Inc.",7,0,"Technology","California","San Jose","United States",0
+"Progress Software Corporation",7,0,"Technology","Massachusetts","Bedford","United States",0
+"Quantum Corporation",9,0,"Technology","California","San Jose","United States",0
+"ScanSource, Inc.",6,0,"Technology","South Carolina","Greenville","United States",0
+"ServiceSource International Inc.",9,0,"Technology","California","San Francisco","United States",0
+"Silicon Laboratories",9,0,"Technology","Texas","Austin","United States",0
+"Solera Holdings, Inc.",8,0,"Technology","Texas","Westlake","United States",0
+"Stamps.com Inc.",4,0,"Technology","California","El Segundo","United States",0
+"SunGard Data Systems Inc.",7,0,"Technology","Pennsylvania","Wayne","United States",0
+"Synaptics, Inc.",8,0,"Technology","California","San Jose","United States",0
+"TeleCommunication Systems, Inc.",9,0,"Technology","Maryland","Annapolis","United States",0
+"Tessco Technologies, Inc.",6,0,"Technology","Maryland","Hunty Valley","United States",0
+"TTM Technologies, Inc.",9,0,"Technology","California","Costa Mesa","United States",0
+"Ubiquiti Networks Inc.",4,0,"Technology","California","San Jose","United States",0
+"Ultimate Software Group",7,0,"Technology","Florida","Weston","United States",0
+"Ultratech, Inc.",7,0,"Technology","California","San Jose","United States",0
+"Universal Electronics Inc.",7,0,"Technology","California","Santa Ana","United States",0
+"Universal Security Instruments, Inc.",4,0,"Technology","Maryland","Owings Mills","United States",0
+"ViaSat Inc.",8,0,"Technology","California","Carlsbad","United States",0
+"Vicor Corporation",10,0,"Technology","Massachusetts","Andover","United States",0
+"Virtusa Corporation",8,0,"Technology","Massachusetts","Westborough","United States",0

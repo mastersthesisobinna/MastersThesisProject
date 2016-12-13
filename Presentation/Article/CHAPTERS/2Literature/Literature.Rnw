@@ -1,0 +1,26 @@
+\setcounter{section}{-1}
+
+\refstepcounter{section}
+\section*{\centering \normalsize Theoritical Framework}
+\addcontentsline{toc}{section}{Theoritical Framework}
+<<theory, child='/sub/theory.Rnw'>>=
+@
+    %\subsection{Resource dependency theory} \label{sssec:resource}
+    %\subsection{Human capital theory} \label{sssec:human}
+    %\subsection{Agency theory} \label{sssec:agency}
+    %\subsection{Social theory} \label{sssec:social}
+
+\refstepcounter{section}
+\section*{\centering \normalsize Previous Empirical Studies}
+\addcontentsline{toc}{section}{Previous Empirical Studies}
+<<pastempirical, child='/sub/pastempirical.Rnw'>>=
+@
+    %\subsection{Positive relationship} \label{sssec:positive}
+    %\subsection{Negative relationship} \label{sssec:negative}
+    %\subsection{Non-significant relationship} \label{sssec:nonsig}
+
+\refstepcounter{section}
+\section*{\centering \normalsize Null Hypotheses} \label{sec:hypothesis}
+\addcontentsline{toc}{section}{Null Hypotheses}
+<<nullhypothesis, child='/sub/nullhypothesis.Rnw'>>=
+@

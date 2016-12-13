@@ -1,0 +1,25 @@
+\setcounter{section}{-1}
+
+\refstepcounter{section}
+\section*{\centering \normalsize Statistical Tool and Selected Significance Level}
+\addcontentsline{toc}{section}{Statistical Tool and Selected Significance Level}
+<<tool, child='/sub/tool.Rnw'>>=
+@
+
+\refstepcounter{section}
+\section*{\centering \normalsize Shapiro Wilks Test Analysis and Results}
+\addcontentsline{toc}{section}{Shapiro Wilks Test Analysis and Results}
+<<normality, child='/sub/normality.Rnw'>>=
+@
+
+\refstepcounter{section}
+\section*{\centering \normalsize Spearman Correlation Analysis and Results}
+\addcontentsline{toc}{section}{Spearman Correlation Analysis and Results}
+<<spearman, child='/sub/spearmanCorrelation.Rnw'>>=
+@
+
+\refstepcounter{section}
+\section*{\centering \normalsize Kruskal Wallis Rank Sum Test Analysis and Results}
+\addcontentsline{toc}{section}{Kruskal Wallis Rank Sum Test Analysis and Results}
+<<kruskal, child='/sub/kruskal.Rnw'>>=
+@

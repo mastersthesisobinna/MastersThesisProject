@@ -1,0 +1,30 @@
+The board of directors provide four important functions to the firm, this include (1) monitoring and controlling managers, (2) providing information and counsel to managers, (3) monitoring compliance with applicable laws and regulations, and (4) linking the corporation to the external environment (Carter, D'Souza, Simkins, \& Simpson, 2010). A number of existing theories have addressed these functions in one way or another. It is argued that the execution of these functions by the board, is largely dependent on the composition of the board itself. A well-organized board comprising of the right composition of board members, is generally believed to be capable of increasing the firm's performance, by being able to execute all four of the functions mentioned above. This idea offers the possibility that board composition, in regards to the gender diversity of the board, is perhaps, likely related to the performance of the firm.
+
+There are a few number of theories from various fields, which have tried to examine the nature of the relationship between board diversity and financial performance of the firm. However, there is no single theory that is known to have directly predicted the nature of the relationship itself. In this section, we adopt an interdisciplinary approach and draw from four important theories taken from organization theory, economics, and social psychology to provide the theoretical basis for the hypotheses tested. The four theories discussed in this section provide some of the known business cases of a gender diverse board of directors in firms. The four theories we will be reviewing in this section are resource dependency (see page \pageref{sssec:resource}), human capital (see page \pageref{sssec:human}), agency (see page \pageref{sssec:agency}), and social psychological theory (see page \pageref{sssec:social}).
+
+
+\setcounter{subsection}{-1}
+
+\refstepcounter{subsection}
+\subsection*{\raggedright \normalsize Resource Dependency Theory} \label{sssec:resource}
+\addcontentsline{toc}{subsection}{Resource Dependency Theory}
+<<resource, child='/subsub/resource.Rnw'>>=
+@
+
+\refstepcounter{subsection}
+\subsection*{\raggedright \normalsize Human Capital Theory} \label{sssec:human}
+\addcontentsline{toc}{subsection}{Human Capital Theory}
+<<human, child='/subsub/human.Rnw'>>=
+@
+
+\refstepcounter{subsection}
+\subsection*{\raggedright \normalsize Agency Theory} \label{sssec:agency}
+\addcontentsline{toc}{subsection}{Agency Theory}
+<<agency, child='/subsub/agency.Rnw'>>=
+@
+
+\refstepcounter{subsection}
+\subsection*{\raggedright \normalsize Social Theory} \label{sssec:social}
+\addcontentsline{toc}{subsection}{Social Theory}
+<<social, child='/subsub/social.Rnw'>>=
+@

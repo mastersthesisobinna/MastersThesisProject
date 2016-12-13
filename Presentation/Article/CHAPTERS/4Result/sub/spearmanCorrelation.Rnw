@@ -1,0 +1,69 @@
+A spearman correlation analysis was used to measure the strength and direction of the monotonic association between two pairs of variables: (1) percentWOB and ROAA and (2) percentWOB and ROAE. Cohen's standard was used to evaluate the strength of the relationships, where coefficients between 0.10 and 0.29 represent a small relationship, coefficients between 0.30 and 0.49 represent a moderate relationship, and coefficients above 0.50 indicate a large relationship (P. Cohen, J. Cohen, West, \& Aiken, 2013). The sign of the coefficient indicates the direction of the relationship. If both variables tend to increase or decrease together, the coefficient is positive. If one variable tends to increase as the other decreases, the coefficient is negative. 
+
+The spearman correlation analysis assumes that the variables are measured on an ordinal, interval or ratio scale. Our variables included in the sample satisfies this assumption. The spearman correlation analysis also assumes that the relationship between each pair of variables is monotonic (does not change direction). Also our variables included in the sample satisfies this assumption. In other words, as one variable increases, so does the value of the other variable or as the value of one variable increases, the other variable value decreases. This assumption is violated if the points on the scatterplot diagram between any pair of variables appear to shift from a positive to negative or negative to positive relationship. 
+
+We set the significance value at 0.05. A \emph{p} value greater than 0.05 allows us to accept the calculated spearman coefficient (\emph{rho}) as not statistically significant. A \emph{p} value less than 0.05 allows us to accept the calculated spearman coefficient (\emph{rho}) as statistically significant. \autoref{pValueRHO} shows the calculated \emph{p} values of the spearman correlation analysis. \autoref{RHO} shows the calculated spearman coefficient (\emph{rho}) of the spearman correlation analysis. 
+
+The results of the calculated spearman coefficient (\emph{rho}) and \emph{p} values, shows that there was a statistically non-significant negative correlation between percentWOB and ROAA (\emph{rho} = -0.194, \emph{p} = 0.1819). The correlation coefficient \emph{rho} between percentWOB and ROAA was 0.194, indicating a small negative relationship. The result of the correlation coefficient suggests that as percentWOB increases, ROAA tends to decrease. The results of the calculated spearman coefficient (\emph{rho}) and \emph{p} values, shows that there was a statistically significant negative correlation between percentWOB and ROAE (\emph{rho} = -0.299, \emph{p} = 0.0369). The correlation coefficient \emph{rho} between percentWOB and ROAE was 0.299, indicating a small negative relationship. The result of the correlation coefficient suggests that as percentWOB increases, ROAE tends to decrease.
+
+There was a statistically significant positive correlation between ROAA and ROAE (\emph{rho} = 0.684, \emph{p} \textless 0.05). The correlation coefficient \emph{rho} between percentWOB and ROAE was 0.684, indicating a large positive relationship. The result of the correlation coefficient suggests that as ROAA increases, ROAE tends to increase.
+
+\autoref{fig:monotonicROAA} shows a scatterplot diagram of the negative correlation between ROAA and percentWOB. Likewise, \autoref{fig:monotonicROAE} shows a scatterplot diagram of the negative correlation between ROAE and percentWOB. A scatterplot matrix diagram (see \autoref{fig:pairPlot}) shows the correlation among the variables analyzed. The results of the scatterplot diagrams confirm the results of the spearman correlation analysis.
+\begin{table}[H]
+          \renewcommand\thetable{3}
+          \centering
+          \vspace*{1in}
+          \begin{tabular}{rrrr}
+            \hline
+           & ROAA & ROAE & percentWOB \\ 
+            \hline
+          ROAA &  & 0.0000 & 0.1819 \\ 
+            ROAE & 0.0000 &  & 0.0369 \\ 
+            percentWOB & 0.1819 & 0.0369 &  \\ 
+             \hline
+          \end{tabular}
+          \caption{Calculated \emph{p} Values Among Variables} 
+          \label{pValueRHO}
+\end{table}
+\begin{table}[H]
+          \renewcommand\thetable{4}
+          \centering
+          \vspace*{1in}
+          \begin{tabular}{rlll}
+          \hline
+          & ROAA & ROAE & percentWOB \\ 
+          \hline
+          ROAA &  1.000  &  &  \\ 
+          ROAE &  0.684***  &  1.000  &  \\ 
+          percentWOB & -0.194     & -0.299*    &  1.000  \\ 
+          \hline 
+          \multicolumn{4}{l}{\scriptsize{Significant at \emph{p} \textless .10; *\emph{p} \textless .05; **\emph{p} \textless .01; ***\emph{p} \textless .001}} 
+          \end{tabular}
+          \caption{Calcualted Spearman \emph{rho} Correlation Among Variables} 
+          \label{RHO}
+\end{table}
+\begin{figure}[H]
+          \centering
+          \vspace*{1in}
+          \renewcommand\thefigure{1}
+          \includegraphics[width=0.6\textwidth,height=60mm]{scatterROAA_percentWOB}
+          \caption{Scatterplot Diagram showing the monotonic relationship between ROAA and percentWOB}
+          \label{fig:monotonicROAA}
+\end{figure}
+\begin{figure}[H]
+          \centering
+          \vspace*{1in}
+          \renewcommand\thefigure{2}
+          \includegraphics[width=0.6\textwidth,height=60mm]{scatterROAE_percentWOB}
+          \caption{Scatterplot Diagram showing the monotonic relationship between ROAE and percentWOB}
+          \label{fig:monotonicROAE}
+\end{figure}
+\begin{figure}[H]
+          \renewcommand\thefigure{3}
+          \centering
+          \vspace*{1in}
+          \includegraphics[width=0.6\textwidth,height=60mm]{scatterPair_ROAA_ROAE_percentWOB}
+          \caption{scatterplot matrix diagram showing the correlation among percentWOB, ROAA, and ROAE}
+          \label{fig:pairPlot}
+          \vspace*{1in}
+\end{figure}

@@ -1,0 +1,145 @@
+Method
+Subjects
+A sample of US firms listed in the S&P500 index for the year 2016... These firms consists of various board room size
+between (specify the range here...). All the firms used in this study consists of various industries within the US
+technology sector. Also all of the firms used in the study are classified as publicly traded firms. By law, each of
+this firms are required to file a financial report to the SEC. The 10-K Financial report of all the firms used in this
+study have been used in the selection of the firms. Firms without a complete 10-K financial report was excluded from
+the study. Also data on the gender diversity of the board-number of women and the percentage of women on the board-were
+available. Firms that did not have any reported data on the gender composition of its board were excluded from the 
+study's final sample. Last, we have used only firms that has its business incorporated in the United States. In otherwords
+this will mean firms that has both its headquaters and all of legal details established in the United States.
+Technology firms listed in the S&P500 but are not incorporated in the United States (for example Accenture, 
+incorporated in Dublin) or have its headquaters set up in the United States are excluded from the final sample used 
+in the research. We have taken all this approaches to ensure that all firms used in this
+study share the same basic characteristics or nature of operation.  
+[Discuss about the firms but don't talk in details about the characteristics of data.]
+
+
+
+Procedure
+The present research study followed a quantitative approach for collecting and analyzing the data needed for the
+investigating the relationship between the number of women on the board and the firm's financial performance.
+We collected data on female directors for each firm presented in this study using several packages available 
+in the R statistical tool. The data on female directors is available in an online table format that is publicly
+accessible from its source. Using R and several of its packages, we were able to search, collect, and prepare the
+data on female directors for each technology firm presented in the final sample of the study. Also, using the R 
+statistical tool, we were able to exclude firms that did not have a record of its board composition on the source.
+After carefully formatting each variable in the data, we were able to store the data in comma-separated file.
+We also collected financial data of firms, which were already available in excel file format from the source where 
+the data was collected from. Using several packages from the R statistical tool, we were able to select the required
+financial variables that we needed for each firm included in the final sample. Also with R, we were able to exclude
+any firm which did not have its complete financial records available from its source or did not have the complete
+set of variables that is required in completing the study. After preparing the financial data for each firm, we then
+stored it a comma separated file. 
+We merged both comma-separted file to create the final sample, which includes only firms with a complete financial
+and female directors data. For firms that did not meet any of the aforementioned criteria, we excluded them from the
+final sample.
+[Ensure to state any criteria for the admissibility of the data to prevent bias]
+
+Source
+Our intial sample for the present study consists of data that were extracted from several online sources. 
+Our first online source is the YCharts application, which was used to obtain the ticker symbol and names of the
+56 companies listed on the S&P500 index for the year 2016. Our second online source was from the sec.gov website,
+which uses an online database called EDGAR that tracks financial reports made by publicly traded firms in the 
+United States. We queried the EDGAR database using the unique ticker symbol of firms included in our final sample, to
+obtain their required financial reports. We obtained the 10-K annual financial report for all the 49 technology 
+firms listed in the final sample.
+The 2020 women on board website, contains information about the composition of the board of directors for 
+over 1800 firms globally. Using the R statistical tool, to filter and obtain data on the board of directors from this
+source for only firms in the technology sector. The result of our search consisted of 277 firms, which included technology
+firms located both in the United States and several other countries. In order to exclude the firms that are 
+incorporated in another country other than in the United States, we used the data we obtained from the sec.gov website,
+which contains only US technology firms, and then merged it with our data that consists of the board composition of 277 
+technology firms. After careful formating of variables and preparing the data for storage in a comma-separated file
+format, our final sample consisted of 49 firms. All one of these 49 firms consists of a complete data on their financial
+report from Sec.gov and a compelete data on their board composition from the 2020 women on board's website.
+
+
+Classification of data
+The sample 
+
+data used in the study is classified by their inherent quality as continous data. This implies that the
+variables in the sample data take on varying number of possible values rather than having a finite and small number
+of possible values. Also we classified the sample data by how they are to be measured as interval and ratio data.
+We grouped the data into different level to represent firms that are either categorizeds as having a low, medium, and high board
+size. This was important during the analysis of the data to test our null hypothesis that was presented earlier in the study.
+We also classified the data of our sample as bivariate. This allowed us to investigate the relationship between two 
+separate variables at a time. Therefore, the likely correlation between WOB and ROAA as well as the likely correlation
+between WOB and ROAE.
+We have three 
+variables that we will investigating separately. In a separate scenario, we investigated the relationship between 
+ROAA  and WOB. In a another scenario, we investigated the relationship between ROAE and WOB. 
+More about these three variables will be discussed in details in the measure section. For each observation,
+we investigated the effect of WOB on either of the two accounting measures (i.e. ROAA or ROAE).
+(Independent and dependent variables are terms used in an experiment methodology or design. So except you're 
+planning on doing one, these variables are not to be discussed in this study)
+
+
+Measure (Variables and derived variables ROAA, ROAE used in measuring performance. Their formulas)
+ 
+
+[Discuss the measures, these are the differenct characteristis or variables in the data]
+[Focus more on discussing how this two variables, ROAA and ROAE are used to measure a firm's performance
+provide their calculations as well.]
+[Briefly talk about other variables and then provide a pie chart and descriptive statistic table overview of the final sample
+making sure to state their type, mean, median, sd and other form of measure]
+[Relate some meaning to the reader regarding the table and be very specific.]
+
+
+Methodology
+The present research focus is based on investigating the relationship between female directors and firm's financial 
+performance. We do not intend to determine any cause and effect relationship in this research. Instead, we
+attempt to examine the situation as it is between the characteristics by adopting a correlational reasearch 
+approach, which is a type of quantitave research methodology that falls under the broad heading of descriptive
+quantitative research. Following this approach, we identfied both the characteristics and possible correlations 
+that may exist between ROAA and WOB, ROAE and WOB, and ROAA and ROAE. A correlational study will help us examine
+the extent to which differences in one characteristics or variable are related to differences in one or more other
+characteristics or variable. A correlation exists if, when one variable increases, another variable either increases
+or decreases in a somewhat predicatable fashion. 
+This approach will provide us with a high
+level understanding of the likely relationship between the number of women on  the board of directors and  
+the financial performance of listed firms in the S&P500's technology sector.
+
+
+Statistical Analysis
+We selected a two parametric statistic approach in this study. First we used the descriptive anlaysis to descrbie the
+nature of each variable in the data under observation. For each variable of interest, we determined the
+measures of central tendency, variation and correlation (using bivariate) and presented the descriptive analysis in table 1 below.
+[Interpret the table here].
+The second parametric statistic approach used in the study was inferential statistic. We applied
+the t-test in our study, to assist us to test the null hypothesis stated earlier in the study(remember that the
+t0test measures whether two subgroups of a sample have large enough difference between their means that the 
+difference actually exists or is statistically significatn. our subgroups are wob greater than 5 and wob less than
+5. for each we determine the mean of the ROAA and ROAE, then we apply the t-test to determine level of significance).
+We also used a regression analysis to measure the degrees of relationship between two
+characteristics at a time (ie. WOB and ROAA, and WOB and ROAE). This we have presented in the matrice correlation
+coefficent table below. We denote the dependent variable or (ROAA or ROAE) as Y and the independent variable as
+WOB in the Scatter plot below.
+[Interpret the table and graph here].
+
+
+Descriptive statistics (for univariate data/analysis as well as bivariate)
+=frequency distribution like mode
+=measures of central tendency (mean, mode, median)
+=measures of variation and dispersion (average deviation, SD, range, max, min, quartiles etc)
+=pie chart and graphs like histogram and line graph.
+[interpret analysis]
+
+
+inferential statistics (for Bivariate data/analysis)
+=t-test (significance level for testing subgroups of sample in interval data i.e. WOB > 5 and WOB < 5: mean(ROAA, ROAE))
+=regression analysis (scatter plots X, Y and coefficient i.e. perfectly positive or negative correlation) 
+[interpret analysis]
+Discuss the significance level of t-test reported, discuss the homogenieity or heterogenty of the two variables
+shown in the scatter plot (refer to page 184 yellow book). Discuss either the upward or downward or scattered trend
+shown in the scatter plot for your regression analysis. Ask the question, can we estimate or predict the ROAA or ROAE
+of a firm based on their WOB levels? Remeber that correlation does not in itself mean causualty.
+
+
+Sites for help
+Data Gathering procedures:
+http://www.masterpapers.com/blog/thesis-writing-guide/data-gathering-procedure-for-research-papers
+http://www.ohrc.on.ca/en/count-me-collecting-human-rights-based-data/6-what-involved-collecting-data-%E2%80%93-six-steps-success
+
+

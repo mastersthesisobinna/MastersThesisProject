@@ -1,0 +1,50 @@
+Appropriateness of the Research Design
+
+Research Design
+
+Sample setting, size and source
+
+Characteristics of subjects (i.e. firms)
+
+
+
+Classification of data
+
+Tools or instrument
+
+Procedure
+
+Data assumption
+Based on the quality of data is it continous or discrete
+Based on the scales of measurement is it ratio, norminal, interval, ordinal
+Based on the distribution of the data is it normal or non-normal distribution
+
+Selected statistical analysis procedure
+The selection of the statistical procedure that was used in the study was based on several assumptions. First,
+we anlayzed the nature of the data to determine if several assumptions are met in order to use one statistical
+procedure over another. A Shapiro-Wilk test was used to analyze the distribution of the ROAA and ROAE in our
+sample dataset. The result of the analysis is presented below. We selected a standard significance level of 0.05 as the p-value
+which we used to determine the estimation of the key parameters of the distribution found in ROAA and ROAE. A p-value 
+reported in the Shapiro-Wilk test that is lower than the predetermined standard p-value of 0.05 indicates a data that
+does not follow a normal distribution. In the Shapiro-Wilk test presented below, we find that the ROAA and ROAE had
+a p-value of 0.004405 and 5.971e-05 respectively. The Shapiro-Wilk test shows a statistically significant test for
+our ROAA and ROAE. Their p-values are less than the predertermined p-value and thus, do not follow a normal
+distribution. Thus based on this assumption, our selected statistic procedure is a nonparametric statistics.
+
+Based on the assumptions above, select the statistical procedure and techniques
+required for the study.
+Based on the knowledge of the SD of the population
+-Parametric (if data is ratio/interval, and normally distributed)or
+-Non-parametric
+
+Ethical considerations
+
+Internal and external validity
+
+
+Future suggestions
+Due to small sample, our data did not conform to a normality. Future research should use a larger sample of 
+data and follow a parametric statistic procedure (provided the large sample data qualify for normality). 
+The parametric statistic procedure are generally more powerful that the non-parametric procedure like the one
+use in this research. 
+

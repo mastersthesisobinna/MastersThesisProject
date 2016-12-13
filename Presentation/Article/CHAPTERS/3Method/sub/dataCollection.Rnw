@@ -1,0 +1,31 @@
+The YCharts website offers access to its online service through a 30-day trial plan. It also offers access to its service through an annual subscription fee. Data that is contained in the YCharts online source can be verified using several financial stock market websites like Yahoo Finance and Google Finance. The YCharts' 30-day trial plan offers a download functionality directly from its website, which we used for downloading the data on the United States technology firms listed in the S\&P 500 firms. The data is available for download directly from the website in a comma separated values (CSV) file format. The data obtained from the YCharts source consists of the following three variables: "ticker, name, and currency code". The "ticker" variable is the stock market symbol for the firm, the "name" variable is the full name of the firm, and the "currency code" variable is the firm's trading currency for stocks on the exchange markets, such as Nasdaq and the New York Stock Exchange (NYSE) markets.
+
+The financial data on the firms included in our sample is obtained from the SEC website using the ticker symbol of the firm. Using the firm's ticker symbol, we obtained the 10-k financial statement reports for each of the 49 firms included in our sample for the year 2014 and 2015, which is readily available for download in an excel file format. Five financial variables from the SEC website is included in our sample. They are "netIncome2015, asset2014, asset2015, stock2014, and stock2015". The "netIncome2015" variable is the net income earned by the firm for the year 2015. The "asset2014 and asset2015" variables are the 2014 and 2015 total assets values for the firm respectively. Also, the "stock2014 and stock2015" variables are the 2014 and 2015 total stockholder's equity attributed to the firm respectively. We used all five of these variables to compute our two financial measures of performance that is required for the present study.
+
+First, we used the netIncome2015, asset2014, and asset2015 variables to compute the firm's return on average assets (ROAA) for the year 2015. We calculated the ROAA as the percentage ratio of net income (i.e. netIncome2015) and average total assets (i.e. asset2014 and asset2015) for the year 2015. Next, we used the netIncome2014, stock2014, and stock2015 variables to compute the firm's return on average equity (ROAE) for the year 2015. We calculated the ROAE as the percentage ratio of net income (i.e. netIncome2015) and average stockholder's equity (i.e. stock2014 and stock2015) for the year 2015.
+
+We used several data mining techniques that is provided as packages in the R statistics software, to obtain data on the board composition of firms from the 2020 women on boards website. The three variables of interest that we obtained from the website are "Board, WOB, and percentWOB". The "Board" variable is the total board size comprising of both male and female directors on the board. The "WOB" variable is the number of women on the board of directors in the firm. The "percentWOB" variable is the percentage ratio of the number of women on the board of directors-indicated by the "WOB" variable-and the total board size in the firm-indicated by the "percentWOB" variable. \autoref{percentWomen} shows a descriptive statistic of all the aforementioned variables included in our sample.
+\begin{table}[H]
+          \renewcommand\thetable{1}
+          \centering
+          \vspace*{1in}
+          \begin{tabular}{lrrr}
+          \hline
+          Variable & Min & Max & Mean \\ 
+          \hline
+          netIncome2015 & -4359082000.00 & 53394000000.00 & 2985093612.24 \\ 
+          asset2014 & 1655578000.00 & 231839000000.00 & 27910588816.33 \\ 
+          asset2015 & 1884079000.00 & 290479000000.00 & 30879847959.18 \\ 
+          stock2014 & -883466000.00 & 111547000000.00 & 16158950346.94 \\ 
+          stock2015 & -1070447000.00 & 120331000000.00 & 16338652551.02 \\ 
+          ROAA (percent) & -8.15 & 29.44 & 8.78 \\ 
+          ROAE (percent) & -38.41 & 46.41 & 14.78 \\ 
+          Board & 5.00 & 15.00 & 10.06 \\ 
+          WOB & 0.00 & 5.00 & 1.92 \\ 
+          percentWOB & 0.00 & 44.00 & 18.94 \\ 
+          \hline
+          \end{tabular}
+          \caption{Descriptive Statistics of The Sample Variables} 
+          \label{percentWomen}
+          \vspace*{1in}
+\end{table}

@@ -1,0 +1,57 @@
+ticker,Name,Currency Code
+ATVI   ,Activision Blizzard,USD
+AYI   ,Acuity Brands,USD
+ADBE   ,Adobe Systems,USD
+AKAM   ,Akamai Technologies,USD
+GOOG   ,Alphabet,USD
+GOOGL   ,Alphabet,USD
+APH   ,Amphenol,USD
+ADI   ,Analog Devices,USD
+AAPL   ,Apple,USD
+AMAT   ,Applied Materials,USD
+ADSK   ,Autodesk,USD
+CA   ,CA,USD
+CSRA   ,CSRA,USD
+CERN   ,Cerner,USD
+CSCO   ,Cisco Systems,USD
+CTXS   ,Citrix Systems,USD
+CTSH   ,Cognizant Tech Solns,USD
+GLW   ,Corning,USD
+EA   ,Electronic Arts,USD
+FFIV   ,F5 Networks,USD
+FLIR   ,FLIR Systems,USD
+FB   ,Facebook,USD
+FSLR   ,First Solar,USD
+FTV   ,Fortive,USD
+HPQ   ,HP,USD
+HAR   ,Harman Intl Indus,USD
+HRS   ,Harris,USD
+HPE   ,Hewlett Packard,USD
+IBM   ,IBM,USD
+INTC   ,Intel,USD
+INTU   ,Intuit,USD
+JNPR   ,Juniper Networks,USD
+KLAC   ,KLA-Tencor,USD
+LRCX   ,Lam Research,USD
+LLTC   ,Linear Technology,USD
+MCHP   ,Microchip Technology,USD
+MU   ,Micron Technology,USD
+MSFT   ,Microsoft,USD
+MSI   ,Motorola Solutions,USD
+NVDA   ,NVIDIA,USD
+NTAP   ,NetApp,USD
+ORCL   ,Oracle,USD
+QRVO   ,Qorvo,USD
+QCOM   ,Qualcomm,USD
+RHT   ,Red Hat,USD
+CRM   ,Salesforce.com,USD
+SWKS   ,Skyworks Solutions,USD
+SYMC   ,Symantec,USD
+TDC   ,Teradata,USD
+TXN   ,Texas Instruments,USD
+TRIP   ,TripAdvisor,USD
+VRSN   ,VeriSign,USD
+WDC   ,Western Digital,USD
+XRX   ,Xerox,USD
+XLNX   ,Xilinx,USD
+YHOO   ,Yahoo!,USD
